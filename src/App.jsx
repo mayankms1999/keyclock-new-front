@@ -4,6 +4,7 @@ import Login from './Login';
 import Welcome from './Welcome';
 
 const App = () => {
+    console.log("env file ",import.meta.env.VITE_KEYCLOAK_URL);
     return (
         <Router>
             <Routes>
